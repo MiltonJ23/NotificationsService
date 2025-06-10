@@ -1,0 +1,22 @@
+{
+  "name": "lendema-notifications",
+  "version": "1.0.0",
+  "description": "The source code of the Notifications Services of the Lendema System ",
+  "license": "ISC",
+  "author": "Zingui Fred Mike",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
